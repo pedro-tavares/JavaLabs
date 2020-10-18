@@ -28,3 +28,10 @@ Creating a branch:
 position on the source
 git branch <source> <new_branch>
 git checkout <new_branch>
+
+Merging a branch:
+-----------------
+git checkout <branch_to_merge_into>
+git merge <branch_to_merge>
+Delete old branch?
+git branch -d <branch_to_merge>
