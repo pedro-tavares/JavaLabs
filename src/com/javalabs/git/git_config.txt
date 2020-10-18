@@ -1,0 +1,21 @@
+get account on github.com
+
+install git bash
+https://git-scm.com/downloads
+
+open git bash or cmd line
+
+git init
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git clone https://github.com/pedro-tavares/JavaLabs
+git remote add https://github.com/pedro-tavares/JavaLabs
+
+git status
+
+git pull
+
+git commit -m "<commit message>"
+git push --set-upstream JavaLabs master
