@@ -19,3 +19,6 @@ git pull
 
 git commit -m "<commit message>"
 git push --set-upstream JavaLabs master
+
+after that:
+git push
