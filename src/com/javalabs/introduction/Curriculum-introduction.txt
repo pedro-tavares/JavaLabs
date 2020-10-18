@@ -1,0 +1,143 @@
+What is Java?
+-------------
+A multi-purpose programming language
+A Language for the JVM
+JVM runs Bytecode
+javac compiles *.java to Bytecode
+Java is NOT Javascript!
+How to compile Java - javac
+How to run a Java class - java
+
+The Difference between: (A popular interview question)
+------------------------------------------------------
+* The JVM
+* The JRE - Java Runtime Execution
+* The JDK - Java Development Kit
+
+Primitive Data Types
+--------------------
+byte - Stores whole numbers from -128 to 127
+short - Stores whole numbers from -32,768 to 32,767
+int - Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long - Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float - Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+double - Stores fractional numbers. Sufficient for storing 15 decimal digits
+boolean - true or false
+char - Stores a single character/letter or ASCII values
+
+Boolean Operators
+-----------------
+Assignment: =
+Comparison equals: ==
+Negate: !
+AND: &
+OR: |
+XOR: ^
+
+Math Operations
+---------------
+int, double and float data types:
+Addition: +
+Subtraction: -
+Multiplication: *
+Division: /
+Modulo (yields the remainder): %
+
+Comparison Operators
+--------------------
+Greater than: >
+Less than: <
+Greater than or equal to: >=
+Less than or equal to: <=
+Equal to: ==
+Not equal to: !=
+
+Introduce class
+---------------
+What is Object?
+A class is NOT an Object
+How to create an Object instance
+Default constructor
+How to destroy an Object instance: Garbage Collector
+What is this
+*TODO equals
+*TODO hashcode
+
+Object data types
+-----------------
+BigDecimal
+String 
+
+Introduce package
+-----------------
+Placement
+Correct syntax
+What is import
+java.lang
+
+public static void main (String[] args)
+---------------------------------------
+What is main? an entry point into a Java system
+What is static?
+What is System?
+
+Comments
+--------
+//
+/* */
+
+OOP - Object Oriented Programming 
+---------------------------------
+Inheritance with extends
+Explain super
+Polymorphism
+Abstract class
+Concrete class: first one in hierarchy that can be instantiated (non-abstract)
+What is interface
+Explain implements
+default in interface
+
+Properties, Methods and Functions
+---------------------------------
+Default constructor
+Constructor: same name as the class 
+The difference between a method and a function, method returns void, function returns a type
+Method Overriding
+Method Overloading
+
+The difference between:
+-----------------------
+private
+protected
+public
+package
+
+final
+-----
+
+Conditionals
+-------------
+if
+if else
+Ternary Operator
+switch
+
+Loops
+-----
+for
+while
+do while
+
+Arrays
+------
+[]
+[][]
+
+Exceptions
+----------
+Checked Exceptions
+Unchecked Exceptions
+throws
+try catch
+try catch finally
+
