@@ -17,6 +17,8 @@ git status
 
 git pull
 
+WRITE CODE
+
 git commit -m "<commit message>"
 git push --set-upstream JavaLabs master
 
@@ -27,7 +29,9 @@ Creating a branch:
 ------------------
 position on the source
 git branch <source> <new_branch>
+	:git branch master whatever_you_are_working_on
 git checkout <new_branch>
+	:git checkout whatever_you_are_working_on
 
 Merging a branch:
 -----------------

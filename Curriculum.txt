@@ -29,7 +29,7 @@ Useful Links:
 - JDK 15
 	https://openjdk.java.net/projects/jdk/15
 	https://jdk.java.net/15/
-	go into lib -> unzip src
+	go into lib -> unzip src.rar
 	in Eclipse click a class -> attach source -> attach external -> point to src directory
 	
 - GWT Google Web Toolkit - Java on client and server for MVPs: 

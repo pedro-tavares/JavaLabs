@@ -1,5 +1,8 @@
 package com.javalabs.collections;
 
+import java.util.List;
+import java.util.Vector;
+
 /**
  *	VectorExample
  *	Uses a dynamic array
@@ -9,24 +12,29 @@ public class VectorExample {
 
 	public static void main(String[] args) {
 		System.out.println("JavaLabs - collections - Vector");
-		
+	
+		List<String> students = new Vector<String>();
+		students.add("Antonio"); //0 
+		students.add("Xavier"); //1
+		students.add("Beatrice"); //2
+
 		/*
 		System.out.println("\nUsing for:");
-		for (int i=0; i < v.size(); i++) {
-			System.out.println(v.get(i));
+		for (int i=0; i < students.size(); i++) {
+			System.out.println(students.get(i));
 		}
 		*/
 		/*
 		System.out.println("\nUsing iterator:");
-		Iterator iterator = v.iterator();
-		while (iterator.hasNext()) {
-			System.out.println(iterator.next());
+		Iterator<String> it = students.iterator();
+		while (it.hasNext()) {
+			System.out.println(it.next());
 		}
 		*/
 		/*
 		System.out.println("\nUsing shorthand for:");
-		for (String s: v) {
-			System.out.println(s);
+		for (String name: students) {
+			System.out.println(name);
 		}
 		*/
 		/*
@@ -36,7 +44,7 @@ public class VectorExample {
 		        System.out.println(name);
 		    }
 		};
-		v.forEach(printConsumer);
+		students.forEach(printConsumer);
 		*/
 	}
 

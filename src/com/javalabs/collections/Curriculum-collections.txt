@@ -1,0 +1,23 @@
+Collection Interface
+
+Arrays.class
+Collections.class
+
+Iterator
+
+Interfaces:
+----------------
+List
+Queue
+
+Implementations:
+----------------
+of List:
+Vector
+Stack
+ArrayList
+LinkedList
+
+of Queue:
+PriorityQueue
+
