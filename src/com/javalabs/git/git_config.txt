@@ -22,3 +22,9 @@ git push --set-upstream JavaLabs master
 
 after that:
 git push
+
+Creating a branch:
+------------------
+position on the source
+git branch <source> <new_branch>
+git checkout <new_branch>
