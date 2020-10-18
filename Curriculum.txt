@@ -24,7 +24,13 @@
 - What is new in Java 15
 - Kotlin instead of Java?
 
-Interesting Links:
-------------------
+Useful Links:
+-------------
+- JDK 15
+	https://openjdk.java.net/projects/jdk/15
+	https://jdk.java.net/15/
+	go into lib -> unzip src
+	in Eclipse click a class -> attach source -> attach external -> point to src directory
+	
 - GWT Google Web Toolkit - Java on client and server for MVPs: 
 	http://www.gwtproject.org/examples.html
