@@ -17,7 +17,6 @@ public class StackExample {
 		students.push("Lolita");
 		
 		/*
-		System.out.println("\nUsing shorthand for:");
 		for (String name: students) {
 			System.out.println(name);
 		}

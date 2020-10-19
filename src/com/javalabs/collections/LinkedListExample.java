@@ -11,15 +11,12 @@ public class LinkedListExample {
 	public static void main(String[] args) {
 		System.out.println("JavaLabs - collections - LinkedList");
 	
-		String antonio = "Antonio";
-		
 		List<String> students = new LinkedList<String>();
-		students.add(antonio); 
-		students.add(antonio);
+		students.add("Antonio"); 
+		students.add("Antonio");
 		students.add("Xavier"); 
 		students.add("Beatrice");
 
-		System.out.println("\nUsing shorthand for:");
 		for (String name: students) {
 			System.out.println(name);
 		}

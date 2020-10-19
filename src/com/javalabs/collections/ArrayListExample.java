@@ -13,20 +13,27 @@ public class ArrayListExample {
 	
 		List<String> students = new ArrayList<String>();
 		students.add("Antonio"); 
-		students.add("Xavier"); 
+		students.add("Antonio"); // ArrayList accepts duplicates
 		students.add("Beatrice");
+		students.add("Xavier"); 
 
-		System.out.println("\nUsing shorthand for:");
 		for (String name: students) {
 			System.out.println(name);
 		}
 		
+		System.out.println("\nIterate with for backwards");
+		for (int i=students.size()-1; i>=0; i--) {
+			System.out.println(students.get(i));
+		}
+		
 		// now remove Antonio
+		/*
 		students.remove(0);
 		System.out.println("After remove...");
 		for (String name: students) {
 			System.out.println(name);
-		}		
+		}
+		*/		
 	}
 
 }

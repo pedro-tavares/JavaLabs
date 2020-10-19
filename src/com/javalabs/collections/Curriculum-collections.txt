@@ -1,4 +1,5 @@
 Collection Interface
+--------------------
 
 Arrays.class
 Collections.class
@@ -9,6 +10,8 @@ Interfaces:
 ----------------
 List
 Queue
+Deque
+Set
 
 Implementations:
 ----------------
@@ -21,3 +24,22 @@ LinkedList
 of Queue:
 PriorityQueue
 
+of Deque:
+ArrayDeque
+
+of Set:
+HashSet
+LinkedHashSet
+TreeSet
+
+Other Collections
+-----------------
+Map
+Implementations:
+HashMap
+Hashtable
+
+Utilities:
+----------
+Arrays
+Collections
