@@ -1,2 +1,39 @@
 # JavaLabs
 The JavaLabs Masterclasses
+
+- Introduction to Java
+- GIT
+- Collections Framework
+- Concurrency/Multi-threading
+- JDBC - Java Database Connectivity
+- Build Systems, Maven and Gradle
+- Hibernate/JPA - Java Persistence API
+- Spring Framework
+- XML and JSON
+- HTTP Verbs
+- SOAP and REST
+- AOP - Aspect Oriented Programming
+- Servlets / JSP
+- MVC Architecture
+- Deploy as JAR and WAR
+- Spring Boot
+- Microservices
+- Reactive Architecture
+- WebFlux
+- R2DBC, the non-blocking version of JDBC
+- SQL
+- Unit Testing - EclEmma
+- Design Patterns - Ex. Singleton
+- What is new in Java 15
+- Kotlin instead of Java?
+
+Useful Links:
+-------------
+- JDK 15
+	https://openjdk.java.net/projects/jdk/15
+	https://jdk.java.net/15/
+	go into lib -> unzip src.rar
+	in Eclipse click a class -> attach source -> attach external -> point to src directory
+	
+- GWT Google Web Toolkit - Java on client and server for MVPs: 
+	http://www.gwtproject.org/examples.html
