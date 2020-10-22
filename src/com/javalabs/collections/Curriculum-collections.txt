@@ -1,13 +1,11 @@
-Collection Interface
---------------------
-
-Arrays.class
-Collections.class
+Collections
+-----------
 
 Iterator
 
 Interfaces:
 ----------------
+Collection
 List
 Queue
 Deque
