@@ -7,3 +7,13 @@ CREATE TABLE Student (
     Age int,
     PRIMARY KEY (id)
 ); 
+
+INSERT INTO Student VALUES(
+	1,
+    "Student 1 Name",
+    "Student 1 Surname",
+    18
+);
+
+SELECT * FROM Student;
+DELETE FROM Student;

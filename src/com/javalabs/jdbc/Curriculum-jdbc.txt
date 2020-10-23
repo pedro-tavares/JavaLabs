@@ -1,16 +1,23 @@
-Install MySQL 8
+ JDBC Interfaces
 ---------------
-https://dev.mysql.com/downloads/installer/
-https://dev.mysql.com/doc/refman/8.0/en/mysql-installer.html
+Driver interface
+Connection interface
+Statement interface
+PreparedStatement interface
+CallableStatement interface
+ResultSet interface
+ResultSetMetaData interface
+DatabaseMetaData interface
+RowSet interface
 
-In case of VCRUNTIME140.dll:
-Install Microsoft Visual C++ 2015-2019
-https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
-
-Oracle XE
+Statement 
 ---------
-https://www.oracle.com/database/technologies/xe-downloads.html
+executeQuery
+executeUpdate
 
-SQL Developer:
---------------
-https://www.oracle.com/database/technologies/appdev/sqldeveloper-landing.html
+JDBC Classes
+------------
+DriverManager class
+Blob class
+Clob class
+Types class
