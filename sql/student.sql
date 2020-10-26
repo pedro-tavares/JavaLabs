@@ -16,4 +16,5 @@ INSERT INTO Student VALUES(
 );
 
 SELECT * FROM Student;
+
 DELETE FROM Student;

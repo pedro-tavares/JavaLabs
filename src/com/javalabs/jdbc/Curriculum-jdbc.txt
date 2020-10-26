@@ -1,3 +1,6 @@
+Schema
+Table
+
  JDBC Interfaces
 ---------------
 Driver interface

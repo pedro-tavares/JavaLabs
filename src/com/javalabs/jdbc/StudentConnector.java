@@ -1,3 +1,33 @@
+/*
+Schema
+Table
+
+JDBC - Java Database Connectivity
+
+ JDBC Interfaces
+---------------
+Driver interface
+Connection interface
+Statement interface
+PreparedStatement interface
+CallableStatement interface
+ResultSet interface
+ResultSetMetaData interface
+DatabaseMetaData interface
+RowSet interface
+
+Statement 
+---------
+executeQuery
+executeUpdate
+
+JDBC Classes
+------------
+DriverManager class
+Blob class
+Clob class
+Types class
+*/
 package com.javalabs.jdbc;
 
 import java.sql.*;
@@ -8,6 +38,7 @@ public class StudentConnector {
 		try {
 			//Class.forName("com.mysql.jdbc.Driver");
 			Class.forName("com.mysql.cj.jdbc.Driver");
+			
 			Connection connection = DriverManager.getConnection(
 				"jdbc:mysql://localhost:3306/javalabs?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", 
 				"root", 
