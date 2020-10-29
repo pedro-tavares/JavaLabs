@@ -15,12 +15,17 @@ RowSet interface
 
 Statement 
 ---------
-executeQuery
-executeUpdate
+executeQuery - SELECT to get info from the DB
+executeUpdate - INSERT / UPDATE
+
+SELECT
+SELECT or anything else with WHERE
+look at the LIKE
+
 
 JDBC Classes
 ------------
 DriverManager class
-Blob class
-Clob class
+BLOB class
+CLOB class
 Types class
