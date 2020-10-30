@@ -2,7 +2,7 @@
 - Advanced Java
 	Marker Interfaces
 	Cloneable
-	Serialisable - transient
+	Serialisable
 - GIT
 - Collections Framework
 - Concurrency/Multi-threading
